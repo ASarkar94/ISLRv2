@@ -1,0 +1,18 @@
+name: islr_env
+channels:
+  - menpo
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.3
+  - scikit-learn
+  - scipy
+  - statsmodels
+  - seaborn
+  - pandas
+  - numpy
+  - matplotlib
+  - Flask
+  - ipykernel
+
+prefix: islr_env
